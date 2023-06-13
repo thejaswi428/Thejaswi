@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class PatternDiamond
+class PatternDiamond1
 {
 public static void main(String args[]){
 Scanner sc=new Scanner(System.in);
@@ -15,7 +15,5 @@ System.out.println("\n");
 char ch='#';
 for(int i=0;i<=nch1;i++)System.out.print(ch);
 for(int i=0;i<=nch2;i++)System.out.print(c);
-for(int i=0;i<=nch1;i++)System.out.print(ch);
-
 }
 }

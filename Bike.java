@@ -1,10 +1,10 @@
-class Bike{
-void run(){System.out.println("running");}
+abstract class Bike{
+abstract void run();
 }
-class Honda extends Bike{
-void run(){System.out.println("running safely with 100kmph");}
+class Honda4 extends Bike{
+void run(){System.out.println("running safely");}
 public static void main(String args[]){
-Honda obh=new Honda();
-obh.run();
+Bike obj=new Honda4();
+obj.run();
 }
 }
